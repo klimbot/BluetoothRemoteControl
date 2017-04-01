@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlHome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".BluetoothRemoteActivity" >
+    
+    <RelativeLayout
+        android:id="@+id/rlFeedbackGroup1"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/feedback_view_height"
+        android:layout_alignParentTop="true"
+        android:visibility="visible"
+        android:layout_marginTop="3dp" >
+        
+	    <LinearLayout
+	        android:id="@+id/llFeedback1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+	    
+	        <TextView
+	            android:id="@+id/textViewFeedback1"
+	            android:layout_width="@dimen/button_size"
+	            android:layout_height="@dimen/feedback_view_height"
+	            android:layout_marginRight="@dimen/textview_progressbar_padding"
+	            android:text="@string/textview_feedback1"
+	            android:textSize="@dimen/feedback_view_text_size"
+	            android:gravity="right" />
+	       	
+	        <ProgressBar
+	            android:id="@+id/progressBarFeedback1"
+	            style="@android:style/Widget.ProgressBar.Horizontal"
+	            android:layout_width="@dimen/progressbar_small_width"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="-6dp" />
+			
+		</LinearLayout>
+	        
+	    <LinearLayout
+	        android:id="@+id/llFeedback2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:orientation="horizontal" >
+	    
+	    	<TextView
+	            android:id="@+id/textViewFeedback2"
+	            android:layout_width="@dimen/button_size"
+	            android:layout_height="@dimen/feedback_view_height"
+	            android:layout_marginRight="@dimen/textview_progressbar_padding"
+	            android:text="@string/textview_feedback2"
+	            android:textSize="@dimen/feedback_view_text_size"
+	            android:gravity="right" />
+	       	
+	        <ProgressBar
+	            android:id="@+id/progressBarFeedback2"
+	            style="@android:style/Widget.ProgressBar.Horizontal"
+	            android:layout_width="@dimen/progressbar_small_width"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="-6dp" />
+			
+		</LinearLayout>
+	</RelativeLayout>
+		    
+    <LinearLayout
+        android:id="@+id/llFeedbackGroup2"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/feedback_view_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="false"
+        android:layout_below="@+id/rlFeedbackGroup1"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+    
+        <TextView
+            android:id="@+id/textViewFeedback3"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/textview_progressbar_padding"
+            android:text="@string/textview_feedback3"
+            android:textSize="@dimen/feedback_view_text_size"
+            android:gravity="right" />
+       	
+        <ProgressBar
+            android:id="@+id/progressBarFeedback3"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-6dp" />
+		
+	</LinearLayout>
+	
+    <LinearLayout
+        android:id="@+id/llFeedbackGroup3"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/feedback_view_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="false"
+        android:layout_below="@+id/llFeedbackGroup2"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+    
+        <TextView
+            android:id="@+id/textViewFeedback4"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/textview_progressbar_padding"
+            android:text="@string/textview_feedback4"
+            android:textSize="@dimen/feedback_view_text_size"
+            android:gravity="right" />
+       	
+        <ProgressBar
+            android:id="@+id/progressBarFeedback4"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-6dp" />
+		
+	</LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/llFeedbackGroup4"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/feedback_view_height"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/llFeedbackGroup3"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+    
+        <TextView
+            android:id="@+id/textViewFeedback5"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/textview_progressbar_padding"
+            android:text="@string/textview_feedback5"
+            android:textSize="@dimen/feedback_view_text_size"
+            android:gravity="right" />
+       	
+        <ProgressBar
+            android:id="@+id/progressBarFeedback5"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-6dp" />
+		
+	</LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/llFeedbackGroup5"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/feedback_view_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="false"
+        android:layout_below="@+id/llFeedbackGroup4"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+    
+        <TextView
+            android:id="@+id/textViewFeedback6"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/textview_progressbar_padding"
+            android:text="@string/textview_feedback6"
+            android:textSize="@dimen/feedback_view_text_size"
+            android:gravity="right" />
+       	
+        <ProgressBar
+            android:id="@+id/progressBarFeedback6"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-6dp" />
+		
+	</LinearLayout>
+	
+    <RelativeLayout
+        android:id="@+id/rlFeedbackGroup6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llFeedbackGroup5"
+        android:visibility="visible" >
+        
+	    <LinearLayout
+	        android:id="@+id/llFeedback6"
+	        android:layout_width="wrap_content"
+	        android:layout_height="@dimen/feedback_view_height"
+	        android:layout_alignParentRight="true"
+	        android:orientation="horizontal"
+	        android:layout_marginTop="3dp" >
+	    
+	        <TextView
+	            android:id="@+id/textViewFeedback7"
+	            android:layout_width="@dimen/button_size"
+	            android:layout_height="@dimen/feedback_view_height"
+	            android:layout_marginRight="@dimen/textview_progressbar_padding"
+	            android:text="@string/textview_feedback1"
+	            android:textSize="@dimen/feedback_view_text_size"
+	            android:gravity="right" />
+	       	
+	        <ProgressBar
+	            android:id="@+id/progressBarFeedback7"
+	            style="@android:style/Widget.ProgressBar.Horizontal"
+	            android:layout_width="@dimen/progressbar_small_width"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="-6dp" />
+			
+		</LinearLayout>
+	        
+	    <LinearLayout
+	        android:id="@+id/llFeedback7"
+	        android:layout_width="wrap_content"
+	        android:layout_height="@dimen/feedback_view_height"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/llFeedback6"
+	        android:orientation="horizontal"
+	        android:layout_marginTop="3dp" >
+	    
+	    	<TextView
+	            android:id="@+id/textViewFeedback8"
+	            android:layout_width="@dimen/button_size"
+	            android:layout_height="@dimen/feedback_view_height"
+	            android:layout_marginRight="@dimen/textview_progressbar_padding"
+	            android:text="@string/textview_feedback7"
+	            android:textSize="@dimen/feedback_view_text_size"
+	            android:gravity="right" />
+	       	
+	        <ProgressBar
+	            android:id="@+id/progressBarFeedback8"
+	            style="@android:style/Widget.ProgressBar.Horizontal"
+	            android:layout_width="@dimen/progressbar_small_width"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="-6dp" />
+			
+		</LinearLayout>
+	</RelativeLayout>
+    
+    <LinearLayout
+        android:id="@+id/llFeedbackGroup7"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/feedback_view_height"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/llFeedbackGroup5"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+    
+        <TextView
+            android:id="@+id/textViewFeedback9"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/textview_progressbar_padding"
+            android:text="@string/textview_feedback4"
+            android:textSize="@dimen/feedback_view_text_size"
+            android:gravity="right" />
+        
+        <TextView
+            android:id="@+id/textViewFeedback10"
+            android:layout_width="@dimen/progressbar_small_width"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="-6dp"
+	        android:textColor="#FF0000"
+	        android:textStyle="bold|italic"
+            android:text=""
+            android:textSize="@dimen/feedback_view_text_size"
+            android:gravity="left" />
+		
+	</LinearLayout>
+    
+    
+    <LinearLayout
+        android:id="@+id/llActionButtonsRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/llActionButtonsRow2"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="false" >
+        
+        
+        <Button
+            android:id="@+id/buttonActionUp"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_marginLeft="@dimen/button_size"
+            android:text="@string/LabelUpButton"
+            android:textAppearance="?android:attr/textAppearanceSmall" />    
+            
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llActionButtonsRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/llActionButtonsRow3"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="false" >
+
+        <Button
+            android:id="@+id/buttonActionLeft"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:text="@string/LabelLeftButton"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+            android:id="@+id/buttonActionStop"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:maxLines="1"
+            android:text="@string/LabelStopButton"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+            android:id="@+id/buttonActionRight"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:text="@string/LabelRightButton"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llActionButtonsRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/buttonActionDown"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_marginLeft="@dimen/button_size"
+            android:text="@string/LabelDownButton"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llExtraButtonsRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/llExtraButtonsRow2"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonExtra1"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:text="@string/LabelAButton"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+            android:id="@+id/buttonExtra2"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:text="@string/LabelBButton"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+            android:id="@+id/buttonExtra3"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:text="@string/LabelCButton"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/llExtraButtonsRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="40dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonExtra4"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:text="@string/LabelDButton"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+            android:id="@+id/buttonExtra5"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:text="@string/LabelEButton"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+            android:id="@+id/buttonExtra6"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:text="@string/LabelFButton"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llSpeedButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/llExtraButtonsRow2"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/buttonSpeedUp"
+            android:layout_width="@dimen/button_size_small"
+            android:layout_height="@dimen/button_size_small"
+            android:text="@string/LabelSpeedUpButton"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+            android:id="@+id/buttonSpeedNormal"
+            android:layout_width="@dimen/button_size_small"
+            android:layout_height="@dimen/button_size_small"
+            android:text="@string/LabelSpeedNormalButton"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+            android:id="@+id/buttonSpeedDown"
+            android:layout_width="@dimen/button_size_small"
+            android:layout_height="@dimen/button_size_small"
+            android:text="@string/LabelSpeedDownButton"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+</RelativeLayout>

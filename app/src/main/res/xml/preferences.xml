@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Purchase a pro key -->
+    <PreferenceCategory
+            android:title="@string/PrefCatBuyKey"
+            android:key="@string/KeyBuyKeyPref"  >
+
+        <PreferenceScreen
+            	android:title="@string/BuyKey"
+            	android:summary="@string/SummaryBuyKey" >
+            	
+            	<intent
+        				android:action="android.intent.action.VIEW"
+        				android:data="http://play.google.com/store/apps/collection/editors_choice" />
+        </PreferenceScreen>    
+
+    </PreferenceCategory>
+    
+    <!-- Output the accelerometer data -->
+    <PreferenceCategory
+            android:title="@string/PrefCatAccelOutput"
+            android:key="@string/KeyAccelerometerPref" >
+
+        <CheckBoxPreference
+                android:key="@string/KeyAccelOutput"
+                android:title="@string/AccelOutput"
+                android:summary="@string/SummaryAccelOutput"
+                android:defaultValue="false" />
+
+    </PreferenceCategory>
+    
+    <!-- Invert The Layout -->
+    <PreferenceCategory
+            android:title="@string/PrefCatInvertLayout"
+            android:key="@string/KeyInvertLayoutPref" >
+
+        <CheckBoxPreference
+                android:key="@string/KeyInvertLayout"
+                android:title="@string/InvertLayout"
+                android:summary="@string/SummaryInvertLayout"
+                android:defaultValue="false" />
+
+    </PreferenceCategory>
+	
+    <!-- Long Click Release Action -->
+    <PreferenceCategory
+            android:title="@string/PrefCatLongClickRelease"
+            android:key="@string/KeyLongClickReleasePref" >"
+
+        <CheckBoxPreference
+                android:key="@string/KeyLongClickReleaseAction"
+                android:title="@string/LongClickReleaseAction"
+                android:summary="@string/SummaryLongClickReleaseAction"
+                android:defaultValue="false" />
+        <EditTextPreference
+                android:key="@string/KeyLongClickReleaseLabel"
+                android:title="@string/LabelLongClickRelease"
+                android:summary="@string/SummaryLongClickRelease"
+                android:dialogTitle="@string/LabelLongClickRelease"
+                android:defaultValue="LongClickRelease"/>
+        
+    </PreferenceCategory>
+    
+    <!-- Change Button Labels -->
+	<PreferenceCategory
+	    android:title="@string/PrefCatButtonLabels"
+	    android:key="@string/KeySetButtonLabelsPref" >
+
+	    <PreferenceScreen
+	    	android:title="@string/TitlePrefScreenButtonLabels"
+            android:summary="@string/SummaryPrefScreenButtonLabels" >
+	
+			<EditTextPreference
+                android:key="@string/KeyUpButtonLabel"
+                android:title="@string/LabelUpButton"
+                android:dialogTitle="@string/LabelUpButton"
+                android:defaultValue="@string/LabelUpButton"
+                android:maxLength="@string/LabelButtonMaxLen" />
+	        <EditTextPreference
+                android:key="@string/KeyLeftButtonLabel"
+                android:title="@string/LabelLeftButton"
+                android:dialogTitle="@string/LabelLeftButton"
+                android:defaultValue="@string/LabelLeftButton"
+                android:maxLength="@string/LabelButtonMaxLen" />
+	        <EditTextPreference
+                android:key="@string/KeyStopButtonLabel"
+                android:title="@string/LabelStopButton"
+                android:dialogTitle="@string/LabelStopButton"
+                android:defaultValue="@string/LabelStopButton"
+                android:maxLength="@string/LabelButtonMaxLen" />
+	        <EditTextPreference
+                android:key="@string/KeyRightButtonLabel"
+                android:title="@string/LabelRightButton"
+                android:dialogTitle="@string/LabelRightButton"
+                android:defaultValue="@string/LabelRightButton"
+                android:maxLength="@string/LabelButtonMaxLen" />
+	        <EditTextPreference
+                android:key="@string/KeyDownButtonLabel"
+                android:title="@string/LabelDownButton"
+                android:dialogTitle="@string/LabelDownButton"
+                android:defaultValue="@string/LabelDownButton"
+                android:maxLength="@string/LabelButtonMaxLen" />
+	    
+	        <EditTextPreference
+                android:key="@string/KeyAButtonLabel"
+                android:title="@string/LabelAButton"
+                android:dialogTitle="@string/LabelAButton"
+                android:defaultValue="@string/LabelAButton"
+                android:maxLength="@string/LabelButtonMaxLen" />
+	        <EditTextPreference
+                android:key="@string/KeyBButtonLabel"
+                android:title="@string/LabelBButton"
+                android:dialogTitle="@string/LabelBButton"
+                android:defaultValue="@string/LabelBButton"
+                android:maxLength="@string/LabelButtonMaxLen" />
+	        <EditTextPreference
+                android:key="@string/KeyCButtonLabel"
+                android:title="@string/LabelCButton"
+                android:dialogTitle="@string/LabelCButton"
+                android:defaultValue="@string/LabelCButton"
+                android:maxLength="@string/LabelButtonMaxLen" />
+	        <EditTextPreference
+                android:key="@string/KeyDButtonLabel"
+                android:title="@string/LabelDButton"
+                android:dialogTitle="@string/LabelDButton"
+                android:defaultValue="@string/LabelDButton"
+                android:maxLength="@string/LabelButtonMaxLen" />
+	        <EditTextPreference
+                android:key="@string/KeyEButtonLabel"
+                android:title="@string/LabelEButton"
+                android:dialogTitle="@string/LabelEButton"
+                android:defaultValue="@string/LabelEButton"
+                android:maxLength="@string/LabelButtonMaxLen" />
+	        <EditTextPreference
+                android:key="@string/KeyFButtonLabel"
+                android:title="@string/LabelFButton"
+                android:dialogTitle="@string/LabelFButton"
+                android:defaultValue="@string/LabelFButton"
+                android:maxLength="@string/LabelButtonMaxLen" />
+	    
+	    </PreferenceScreen>
+    </PreferenceCategory>
+	
+	<!-- Button Click Outputs -->
+	<PreferenceCategory
+        android:title="@string/PrefCatButtonOutputs" >
+		
+	    <!-- Normal Click Button Outputs -->
+        <PreferenceScreen
+	        android:title="@string/TitlePrefScreenNormalClick"
+	        android:summary="@string/SummaryPrefScreenNormalClick" >
+
+	    	<EditTextPreference
+                android:key="@string/KeyUpButtonClick"
+                android:title="@string/LabelUpButton"
+                android:dialogTitle="@string/LabelUpButton"
+                android:defaultValue="@string/ActionUpButton" />
+			<EditTextPreference
+                android:key="@string/KeyLeftButtonClick"
+                android:title="@string/LabelLeftButton"
+                android:dialogTitle="@string/LabelLeftButton"
+                android:defaultValue="@string/ActionLeftButton" />
+			<EditTextPreference
+                android:key="@string/KeyStopButtonClick"
+                android:title="@string/LabelStopButton"
+                android:dialogTitle="@string/LabelStopButton"
+                android:defaultValue="@string/ActionStopButton" />
+			<EditTextPreference
+                android:key="@string/KeyRightButtonClick"
+                android:title="@string/LabelRightButton"
+                android:dialogTitle="@string/LabelRightButton"
+                android:defaultValue="@string/ActionRightButton" />
+			<EditTextPreference
+                android:key="@string/KeyDownButtonClick"
+                android:title="@string/LabelDownButton"
+                android:dialogTitle="@string/LabelDownButton"
+                android:defaultValue="@string/ActionDownButton" />
+		
+			<EditTextPreference
+                android:key="@string/KeyAButtonClick"
+                android:title="@string/LabelAButton"
+                android:dialogTitle="@string/LabelAButton"
+                android:defaultValue="@string/ActionExtraButtonA" />
+			<EditTextPreference
+                android:key="@string/KeyBButtonClick"
+                android:title="@string/LabelBButton"
+                android:dialogTitle="@string/LabelBButton"
+                android:defaultValue="@string/ActionExtraButtonB" />
+			<EditTextPreference
+                android:key="@string/KeyCButtonClick"
+                android:title="@string/LabelCButton"
+                android:dialogTitle="@string/LabelCButton"
+                android:defaultValue="@string/ActionExtraButtonC" />
+			<EditTextPreference
+                android:key="@string/KeyDButtonClick"
+                android:title="@string/LabelDButton"
+                android:dialogTitle="@string/LabelDButton"
+                android:defaultValue="@string/ActionExtraButtonD" />
+			<EditTextPreference
+                android:key="@string/KeyEButtonClick"
+                android:title="@string/LabelEButton"
+                android:dialogTitle="@string/LabelEButton"
+                android:defaultValue="@string/ActionExtraButtonE" />
+			<EditTextPreference
+                android:key="@string/KeyFButtonClick"
+                android:title="@string/LabelFButton"
+                android:dialogTitle="@string/LabelFButton"
+                android:defaultValue="@string/ActionExtraButtonF" />
+		
+		</PreferenceScreen>
+	
+		<!-- Long Click Button Outputs -->
+		<PreferenceScreen
+            android:title="@string/TitlePrefScreenLongClick"
+            android:summary="@string/SummaryPrefScreenLongClick" >
+
+        	<EditTextPreference
+                android:key="@string/KeyUpButtonLongClick"
+                android:title="@string/LabelUpButton"
+                android:dialogTitle="@string/LabelUpButton"
+                android:defaultValue="@string/ActionUpButtonLong" />
+			<EditTextPreference
+                android:key="@string/KeyLeftButtonLongClick"
+                android:title="@string/LabelLeftButton"
+                android:dialogTitle="@string/LabelLeftButton"
+                android:defaultValue="@string/ActionLeftButtonLong" />
+			<EditTextPreference
+                android:key="@string/KeyStopButtonLongClick"
+                android:title="@string/LabelStopButton"
+                android:dialogTitle="@string/LabelStopButton"
+                android:defaultValue="@string/ActionStopButtonLong" />
+			<EditTextPreference
+                android:key="@string/KeyRightButtonLongClick"
+                android:title="@string/LabelRightButton"
+                android:dialogTitle="@string/LabelRightButton"
+                android:defaultValue="@string/ActionRightButtonLong" />
+			<EditTextPreference
+                android:key="@string/KeyDownButtonLongClick"
+                android:title="@string/LabelDownButton"
+                android:dialogTitle="@string/LabelDownButton"
+                android:defaultValue="@string/ActionDownButtonLong" />
+		
+			<EditTextPreference
+                android:key="@string/KeyAButtonLongClick"
+                android:title="@string/LabelAButton"
+                android:dialogTitle="@string/LabelAButton"
+                android:defaultValue="@string/ActionExtraButtonALong" />
+			<EditTextPreference
+                android:key="@string/KeyBButtonLongClick"
+                android:title="@string/LabelBButton"
+                android:dialogTitle="@string/LabelBButton"
+                android:defaultValue="@string/ActionExtraButtonBLong" />
+			<EditTextPreference
+                android:key="@string/KeyCButtonLongClick"
+                android:title="@string/LabelCButton"
+                android:dialogTitle="@string/LabelCButton"
+                android:defaultValue="@string/ActionExtraButtonCLong" />
+			<EditTextPreference
+                android:key="@string/KeyDButtonLongClick"
+                android:title="@string/LabelDButton"
+                android:dialogTitle="@string/LabelDButton"
+                android:defaultValue="@string/ActionExtraButtonDLong" />
+			<EditTextPreference
+                android:key="@string/KeyEButtonLongClick"
+                android:title="@string/LabelEButton"
+                android:dialogTitle="@string/LabelEButton"
+                android:defaultValue="@string/ActionExtraButtonELong" />
+			<EditTextPreference
+                android:key="@string/KeyFButtonLongClick"
+                android:title="@string/LabelFButton"
+                android:dialogTitle="@string/LabelFButton"
+                android:defaultValue="@string/ActionExtraButtonFLong" />
+		
+    	</PreferenceScreen>
+    </PreferenceCategory>
+    
+	<!-- Feedback for bluetooth remote -->
+	<PreferenceCategory
+	    android:title="@string/TitlePrefCatFeedback"
+	    android:key="@string/KeyFeedbackGroupPref" >
+	    
+	    <PreferenceScreen
+            android:title="@string/TitleFeedbackGroup1"
+            android:summary="@string/SummaryScreenFeedbackGroup1" >"
+	    
+		    <CheckBoxPreference
+	                android:key="@string/KeyFeedbackGroup1"
+	                android:title="@string/TitleFeedbackGroup1"
+	                android:summary="@string/SummaryFeedbackGroup1"
+	                android:defaultValue="false" />
+		    <EditTextPreference
+	                android:key="@string/KeyLabelSB1"
+	                android:title="@string/TitleLabelSB1"
+	                android:dialogTitle="@string/TitleLabelSB1"
+	                android:defaultValue="@string/DefaultLabelSB1" />
+	        <EditTextPreference
+	                android:key="@string/KeyLabelSB2"
+	                android:title="@string/TitleLabelSB2"
+	                android:dialogTitle="@string/TitleLabelSB2"
+	                android:defaultValue="@string/DefaultLabelSB2" />
+	    </PreferenceScreen>
+	    
+	    <PreferenceScreen
+            android:title="@string/TitleFeedbackGroup2"
+            android:summary="@string/SummaryScreenFeedbackGroup2" >
+	    
+		    <CheckBoxPreference
+	                android:key="@string/KeyFeedbackGroup2"
+	                android:title="@string/TitleFeedbackGroup2"
+	                android:summary="@string/SummaryFeedbackGroup2"
+	                android:defaultValue="false" />
+	        <EditTextPreference
+	                android:key="@string/KeyLabelSB3"
+	                android:title="@string/TitleLabelSB3"
+	                android:dialogTitle="@string/TitleLabelSB3"
+	                android:defaultValue="@string/DefaultLabelSB3" />
+	    </PreferenceScreen>
+		
+	    <PreferenceScreen
+            android:title="@string/TitleFeedbackGroup3"
+            android:summary="@string/SummaryScreenFeedbackGroup3" >
+	    
+		    <CheckBoxPreference
+	                android:key="@string/KeyFeedbackGroup3"
+	                android:title="@string/TitleFeedbackGroup3"
+	                android:summary="@string/SummaryFeedbackGroup3"
+	                android:defaultValue="false" />
+		    <EditTextPreference
+	                android:key="@string/KeyLabelSB4"
+	                android:title="@string/TitleLabelSB4"
+	                android:dialogTitle="@string/TitleLabelSB4"
+	                android:defaultValue="@string/DefaultLabelSB4" />
+	    </PreferenceScreen>
+	    
+		<PreferenceScreen
+            android:title="@string/TitleFeedbackGroup4"
+            android:summary="@string/SummaryScreenFeedbackGroup4" >
+	    
+		    <CheckBoxPreference
+	                android:key="@string/KeyFeedbackGroup4"
+	                android:title="@string/TitleFeedbackGroup4"
+	                android:summary="@string/SummaryFeedbackGroup4"
+	                android:defaultValue="false" />
+		    <EditTextPreference
+	                android:key="@string/KeyLabelSB5"
+	                android:title="@string/TitleLabelSB5"
+	                android:dialogTitle="@string/TitleLabelSB5"
+	                android:defaultValue="@string/DefaultLabelSB5" />    
+		</PreferenceScreen>
+		
+	    <PreferenceScreen
+            android:title="@string/TitleFeedbackGroup5"
+            android:summary="@string/SummaryScreenFeedbackGroup5" >
+	        
+		    <CheckBoxPreference
+	                android:key="@string/KeyFeedbackGroup5"
+	                android:title="@string/TitleFeedbackGroup5"
+	                android:summary="@string/SummaryFeedbackGroup5"
+	                android:defaultValue="false" />
+		    <EditTextPreference
+	                android:key="@string/KeyLabelSB6"
+	                android:title="@string/TitleLabelSB6"
+	                android:dialogTitle="@string/TitleLabelSB6"
+	                android:defaultValue="@string/DefaultLabelSB6" />
+	    </PreferenceScreen>
+	    
+	    <PreferenceScreen
+            android:title="@string/TitleFeedbackGroup6"
+            android:summary="@string/SummaryScreenFeedbackGroup6" >
+	        
+		    <CheckBoxPreference
+	                android:key="@string/KeyFeedbackGroup6"
+	                android:title="@string/TitleFeedbackGroup6"
+	                android:summary="@string/SummaryFeedbackGroup6"
+	                android:defaultValue="false" />
+	    	<EditTextPreference
+	                android:key="@string/KeyLabelSB7"
+	                android:title="@string/TitleLabelSB7"
+	                android:dialogTitle="@string/TitleLabelSB7"
+	                android:defaultValue="@string/DefaultLabelSB7" />
+	    	<EditTextPreference
+	                android:key="@string/KeyLabelSB8"
+	                android:title="@string/TitleLabelSB8"
+	                android:dialogTitle="@string/TitleLabelSB8"
+	                android:defaultValue="@string/DefaultLabelSB8" />
+	    </PreferenceScreen>
+	    
+	    <PreferenceScreen
+            android:title="@string/TitleFeedbackGroup7"
+            android:summary="@string/SummaryScreenFeedbackGroup7" >
+	        
+		    <CheckBoxPreference
+	                android:key="@string/KeyFeedbackGroup7"
+	                android:title="@string/TitleFeedbackGroup7"
+	                android:summary="@string/SummaryFeedbackGroup7"
+	                android:defaultValue="false" />
+	    	<EditTextPreference
+	                android:key="@string/KeyLabelTV9"
+	                android:title="@string/TitleLabelTV9"
+	                android:dialogTitle="@string/TitleLabelTV9"
+	                android:defaultValue="@string/DefaultLabelTV9" />
+	    </PreferenceScreen>
+	</PreferenceCategory>
+	
+	<!-- Reset all preferences back to default -->
+	<PreferenceCategory
+	    android:title="@string/TitlePrefCatResetDefault">
+	    
+	    <CheckBoxPreference
+                android:key="@string/KeyResetDefault"
+                android:title="@string/TitleResetDefault"
+                android:summary="@string/SummaryResetDefault"
+                android:defaultValue="false" />
+        
+	</PreferenceCategory>
+</PreferenceScreen>

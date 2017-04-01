@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Bluetooth Remote Control</string>
+    <string name="bluetooth_activity_name">Select Bluetooth Device</string>
+    <string name="preferences">Preferences</string>
+    
+    <string name="action_settings">Preferences</string>
+    <string name="action_bluetooth">Bluetooth Connect</string>
+    <string name="action_bluetooth_condensed">BT Connect</string>
+    <string name="action_help">Help</string>
+    <string name="example_text"><b> Example Text </b> tstijg </string>
+    <string name="help_text">
+        Bluetooth Connect: Click this button to pair yourself to a bluetooth
+        enabled device. 
+        Button Actions: Navigate into the settings to change what buttons do. You have the option
+        to edit the normal button click action, the long click action and if you choose, you can
+        set an action for the long click release.
+        Button Labels: Change the button labels to suit your action in context with your device.
+    </string>
+    
+    <string name="textview_feedback1">Value</string>
+    <string name="textview_feedback2">Value</string>
+    <string name="textview_feedback3">Value</string>
+    <string name="textview_feedback4">Value</string>
+    <string name="textview_feedback5">Value</string>
+    <string name="textview_feedback6">Value</string>
+    <string name="textview_feedback7">Value</string>
+    
+    <!-- Buy Pro Key Preferences -->
+    <string name="PrefCatBuyKey">Buy Key</string>
+    <string name="BuyKey">Purchase a key to unlock pro features</string>
+    <string name="BoughtKey">Thanks for purchasing our app!</string>
+    <!-- <string name="SummaryBuyKey">Some features are locked because you are using the free version of this app. Click here to purchase an unlock key</string> -->
+    <string name="SummaryBuyKey">The Pro version of this app is not ready for the prime time yet. Please check back later</string>
+    <string name="KeyBuyKeyPref">KeyBuyKeyPref</string>
+    
+    <!-- Accelerometer Output Preferences -->
+    <string name="PrefCatAccelOutput">Accelerometer Output</string>
+    <string name="AccelOutput">Output Device Accelerometer Data?</string>
+    <string name="SummaryAccelOutput">The devices accelerometer readings will be output via the device connection</string>
+    <string name="KeyAccelOutput">KeyAccelData</string>
+    <string name="KeyAccelerometerPref">KeyAccelerometerPref</string>
+    
+    <!-- Invert Button Layout Preferences -->
+    <string name="PrefCatInvertLayout">Layout</string>
+    <string name="InvertLayout">Invert Button Layout?</string>
+    <string name="SummaryInvertLayout">The action and extra buttons will be switched in both landscape and portrait layouts</string>
+    <string name="KeyInvertLayout">KeyInvertLayout</string>
+    <string name="KeyInvertLayoutPref">KeyInvertLayoutPref</string>
+    
+    <!-- Long Click Release Preferences -->
+    <string name="KeyPrefCatLongClickRelease">KeyPrefCatLongClickRelease</string>
+    <string name="KeyLongClickReleasePref">KeyLongClickReleasePref</string>
+    <string name="PrefCatLongClickRelease">Long Click Prefs</string>
+    <string name="LongClickReleaseAction">Long click release action</string>
+    <string name="SummaryLongClickReleaseAction">Send out a special command when a long click is released</string>
+    <string name="KeyLongClickReleaseAction">Add action for long click release?</string>
+    
+    <string name="KeyLongClickReleaseLabel">KeyLongClickReleaseLabel</string>
+    <string name="SummaryLongClickRelease">Value to be output on the long click release</string>
+    <string name="LabelLongClickRelease">Long Click Release Output</string>
+    
+    
+    <string name="PrefButtons">Button Preferences</string>
+    
+    <!-- Reset Default Preferences -->
+	<string name="TitlePrefCatResetDefault">Reset</string>
+	<string name="KeyResetDefault">KeyResetDefault</string>
+	<string name="TitleResetDefault">Reset Preferences?</string>
+	<string name="SummaryResetDefault">Selecting this checkbox will restore all your preferences back to default</string>
+    
+    <!-- Feedback Preferences -->
+    <string name="TitlePrefCatFeedback">Feedback</string>
+    <string name="KeyFeedbackGroupPref">KeyFeedbackGroupPref</string>
+	    <string name="KeyFeedbackGroup1">KeyFeedbackGroup1</string>
+	    <string name="TitleFeedbackGroup1">Feedback Group 1</string>
+	    <string name="SummaryScreenFeedbackGroup1">Edit the Feedback Group 1 Settings</string>
+	    <string name="SummaryFeedbackGroup1">Show the feedback group with 2 smaller Scale Bars. Use SB1=int, SB2=int</string>
+	    <string name="KeyLabelSB1">KeyLabelSB1</string>
+	    <string name="TitleLabelSB1">Scale Bar 1 Label</string>
+	    <string name="DefaultLabelSB1">SB1=int</string>
+	    <string name="KeyLabelSB2">KeyLabelSB2</string>
+	    <string name="TitleLabelSB2">Scale Bar 2 Label</string>
+	    <string name="DefaultLabelSB2">SB2=int</string>
+	    
+	    <string name="KeyFeedbackGroup2">KeyFeedbackGroup2</string>
+	    <string name="TitleFeedbackGroup2">Feedback Group 2</string>
+	    <string name="SummaryScreenFeedbackGroup2">Edit the Feedback Group 2 Settings</string>
+	    <string name="SummaryFeedbackGroup2">Show the feedback group with 1 large Scale Bar. Use SB3=int</string>
+    	<string name="KeyLabelSB3">KeyLabelSB3</string>
+	    <string name="TitleLabelSB3">Scale Bar 3 Label</string>
+	    <string name="DefaultLabelSB3">SB3=int</string>
+	    
+    	<string name="KeyFeedbackGroup3">KeyFeedbackGroup3</string>
+	    <string name="TitleFeedbackGroup3">Feedback Group 3</string>
+	    <string name="SummaryScreenFeedbackGroup3">Edit the Feedback Group 3 Settings</string>
+	    <string name="SummaryFeedbackGroup3">Show the feedback group with 1 large Scale Bar. Use SB4=int</string>
+    	<string name="KeyLabelSB4">KeyLabelSB4</string>
+	    <string name="TitleLabelSB4">Scale Bar 4 Label</string>
+	    <string name="DefaultLabelSB4">SB4=int</string>
+	    
+    	<string name="KeyFeedbackGroup4">KeyFeedbackGroup4</string>
+	    <string name="TitleFeedbackGroup4">Feedback Group 4</string>
+	    <string name="SummaryScreenFeedbackGroup4">Edit the Feedback Group 4 Settings</string>
+	    <string name="SummaryFeedbackGroup4">Show the feedback group with 1 large Scale Bar. Use SB5=int</string>
+	    <string name="KeyLabelSB5">KeyLabelSB5</string>
+	    <string name="TitleLabelSB5">Scale Bar 5 Label</string>
+	    <string name="DefaultLabelSB5">SB5=int</string>
+	    
+	    <string name="KeyFeedbackGroup5">KeyFeedbackGroup5</string>
+	    <string name="TitleFeedbackGroup5">Feedback Group 5</string>
+	    <string name="SummaryScreenFeedbackGroup5">Edit the Feedback Group 5 Settings</string>
+	    <string name="SummaryFeedbackGroup5">Show the feedback group with 1 large Scale Bar. Use SB6=int</string>
+	    <string name="KeyLabelSB6">KeyLabelSB6</string>
+	    <string name="TitleLabelSB6">Scale Bar 6 Label</string>
+	    <string name="DefaultLabelSB6">SB6=int</string>
+	    
+	    <string name="KeyFeedbackGroup6">KeyFeedbackGroup6</string>
+	    <string name="TitleFeedbackGroup6">Feedback Group 6</string>
+	    <string name="SummaryScreenFeedbackGroup6">Edit the Feedback Group 6 Settings</string>
+	    <string name="SummaryFeedbackGroup6">Show the feedback group with 2 smaller Scale Bars. Use SB7=int, SB8=int</string>
+	    <string name="KeyLabelSB7">KeyLabelSB7</string>
+	    <string name="TitleLabelSB7">Scale Bar 7 Label</string>
+	    <string name="DefaultLabelSB7">SB7=int</string>
+	    <string name="KeyLabelSB8">KeyLabelSB8</string>
+	    <string name="TitleLabelSB8">Scale Bar 8 Label</string>
+	    <string name="DefaultLabelSB8">SB8=int</string>
+	    
+	    <string name="KeyFeedbackGroup7">KeyFeedbackGroup7</string>
+	    <string name="TitleFeedbackGroup7">Feedback Group 7</string>
+	    <string name="SummaryScreenFeedbackGroup7">Edit the Feedback Group 7 Settings</string>
+	    <string name="SummaryFeedbackGroup7">Show the raw text being received</string>
+	    <string name="KeyLabelTV9">KeyLabelSB9</string>
+	    <string name="TitleLabelTV9">Text View 9 Label</string>
+	    <string name="DefaultLabelTV9">TV9=ReceivedText</string>
+	    
+    <!-- Button Click Preferences Output -->
+    <string name="PrefCatButtonOutputs">Button Click Actions</string>
+	    <string name="TitlePrefScreenLongClick">Long Click Button Action</string>
+	    <string name="SummaryPrefScreenLongClick">These values will be output when the associated button is long pressed</string>
+	    <string name="KeyUpButtonLongClick">KeyUpButtonLongClick</string>
+	    <string name="KeyLeftButtonLongClick">KeyLeftButtonLongClick</string>
+	    <string name="KeyStopButtonLongClick">KeyStopButtonLongClick</string>
+	    <string name="KeyRightButtonLongClick">KeyRightButtonLongClick</string>
+	    <string name="KeyDownButtonLongClick">KeyDownButtonLongClick</string>
+	    <string name="KeyAButtonLongClick">KeyAButtonLongClick</string>
+	    <string name="KeyBButtonLongClick">KeyBButtonLongClick</string>
+	    <string name="KeyCButtonLongClick">KeyCButtonLongClick</string>
+	    <string name="KeyDButtonLongClick">KeyDButtonLongClick</string>
+	    <string name="KeyEButtonLongClick">KeyEButtonLongClick</string>
+	    <string name="KeyFButtonLongClick">KeyFButtonLongClick</string>
+	    
+	    <string name="TitlePrefScreenNormalClick">Normal Click Button Action</string>
+	    <string name="SummaryPrefScreenNormalClick">These values will be output when the associated button is pressed normally</string>
+	    <string name="KeyUpButtonClick">KeyUpButtonClick</string>
+	    <string name="KeyLeftButtonClick">KeyLeftButtonClick</string>
+	    <string name="KeyStopButtonClick">KeyStopButtonClick</string>
+	    <string name="KeyRightButtonClick">KeyRightButtonClick</string>
+	    <string name="KeyDownButtonClick">KeyDownButtonClick</string>
+	    <string name="KeyAButtonClick">KeyAButtonClick</string>
+	    <string name="KeyBButtonClick">KeyBButtonClick</string>
+	    <string name="KeyCButtonClick">KeyCButtonClick</string>
+	    <string name="KeyDButtonClick">KeyDButtonClick</string>
+	    <string name="KeyEButtonClick">KeyEButtonClick</string>
+	    <string name="KeyFButtonClick">KeyFButtonClick</string>
+	    <string name="KeySpeedUpButtonClick">KeySpeedUpButtonClick</string>
+	    <string name="KeySpeedNormalButtonClick">KeySpeedNormalButtonClick</string>
+	    <string name="KeySpeedDownButtonClick">KeySpeedDownButtonClick</string>
+	
+	<!-- Button Labels -->
+    <string name="PrefCatButtonLabels">Button Labels</string>
+	    <string name="TitlePrefScreenButtonLabels">Set Button Labels</string>
+	    <string name="SummaryPrefScreenButtonLabels">Edit the labels displayed on the buttons</string>
+	    <string name="KeySetButtonLabelsPref">KeySetButtonLabelsPref</string>
+	    
+	    <!-- Button Label Keys for grabbing stored key labels -->
+	    <string name="KeyUpButtonLabel">KeyUpButtonLabel</string>
+	    <string name="KeyLeftButtonLabel">KeyLeftButtonLabel</string>
+	    <string name="KeyStopButtonLabel">KeyStopButtonLabel</string>
+	    <string name="KeyRightButtonLabel">KeyRightButtonLabel</string>
+	    <string name="KeyDownButtonLabel">KeyDownButtonLabel</string>
+	    <string name="KeyAButtonLabel">KeyAButtonLabel</string>
+	    <string name="KeyBButtonLabel">KeyBButtonLabel</string>
+	    <string name="KeyCButtonLabel">KeyCButtonLabel</string>
+	    <string name="KeyDButtonLabel">KeyDButtonLabel</string>
+	    <string name="KeyEButtonLabel">KeyEButtonLabel</string>
+	    <string name="KeyFButtonLabel">KeyFButtonLabel</string>
+	    <string name="KeySpeedUpButtonLabel">KeySpeedUpButtonLabel</string>
+	    <string name="KeySpeedNormalButtonLabel">KeySpeedNormalButtonLabel</string>
+	    <string name="KeySpeedDownButtonLabel">KeySpeedDownButtonLabel</string>
+    	
+	    <!-- Default Button Labels -->
+	    <string name="LabelButtonMaxLen">8</string>
+	    <string name="LabelUpLeftButton">UpL</string>
+	    <string name="LabelUpButton">Up</string>
+	    <string name="LabelUpRightButton">UpR</string>
+	    <string name="LabelLeftButton">Left</string>
+	    <string name="LabelStopButton">Stop</string>
+	    <string name="LabelRightButton">Right</string>
+	    <string name="LabelDownLeftButton">DwnL</string>
+	    <string name="LabelDownButton">Down</string>
+	    <string name="LabelDownRightButton">DwnR</string>
+	    <string name="LabelAButton">A</string>
+	    <string name="LabelBButton">B</string>
+	    <string name="LabelCButton">C</string>
+	    <string name="LabelDButton">D</string>
+	    <string name="LabelEButton">E</string>
+	    <string name="LabelFButton">F</string>
+	    <string name="LabelSpeedUpButton">+</string>
+	    <string name="LabelSpeedNormalButton">0</string>
+	    <string name="LabelSpeedDownButton">-</string>
+	    
+	    <!-- Default Normal Click Button Actions -->
+	    <string name="ActionUpButton">Fwd</string>
+	    <string name="ActionLeftButton">Left</string>
+	    <string name="ActionStopButton">Stop</string>
+	    <string name="ActionRightButton">Right</string>
+	    <string name="ActionDownButton">Back</string>
+	    <string name="ActionExtraButtonA">A</string>
+	    <string name="ActionExtraButtonB">B</string>
+	    <string name="ActionExtraButtonC">C</string>
+	    <string name="ActionExtraButtonD">D</string>
+	    <string name="ActionExtraButtonE">E</string>
+	    <string name="ActionExtraButtonF">F</string>
+	    <string name="ActionSpeedUpButton">+</string>
+	    <string name="ActionSpeedNormalButton">*</string>
+	    <string name="ActionSpeedDownButton">-</string>
+    	
+	    <!-- Default Long Click Button Actions -->
+	    <string name="ActionUpButtonLong">Fwd+</string>
+	    <string name="ActionLeftButtonLong">Left+</string>
+	    <string name="ActionStopButtonLong">Stop+</string>
+	    <string name="ActionRightButtonLong">Right+</string>
+	    <string name="ActionDownButtonLong">Back+</string>
+	    <string name="ActionExtraButtonALong">A+</string>
+	    <string name="ActionExtraButtonBLong">B+</string>
+	    <string name="ActionExtraButtonCLong">C+</string>
+	    <string name="ActionExtraButtonDLong">D+</string>
+	    <string name="ActionExtraButtonELong">E+</string>
+	    <string name="ActionExtraButtonFLong">F+</string>
+    	
+</resources>
