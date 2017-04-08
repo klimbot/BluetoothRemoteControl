@@ -73,6 +73,7 @@
     <!-- Feedback Preferences -->
     <string name="TitlePrefCatFeedback">Feedback</string>
     <string name="KeyFeedbackGroupPref">KeyFeedbackGroupPref</string>
+	<string name="FefedbackGroupHelp">Example: Send the command 'SB2=50' from your device over the bluetooth connection. Scale Bar 2 will be filled to 50% </string>
 	    <string name="KeyFeedbackGroup1">KeyFeedbackGroup1</string>
 	    <string name="TitleFeedbackGroup1">Feedback Group 1</string>
 	    <string name="SummaryScreenFeedbackGroup1">Feedback Group 1 includes two small scale bars</string>
