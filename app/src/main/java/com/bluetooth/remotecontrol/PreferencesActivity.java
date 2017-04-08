@@ -51,7 +51,7 @@ public class PreferencesActivity extends PreferenceActivity implements View.OnCl
 			// SETS WHETHER WE HAVE PURCHASED A KEY
 			buyKeyValue = true;
 			//buyKeyValue = false;
-			buyKeyPrefScreen = (Preference) this.findPreference(res.getString(R.string.KeyBuyKeyPref));
+			//buyKeyPrefScreen = (Preference) this.findPreference(res.getString(R.string.KeyBuyKeyPref));
 			accelerometerPrefScreen = (Preference) this.findPreference(res.getString(R.string.KeySetButtonLabelsPref));
 			invertButtonPrefScreen = (Preference) this.findPreference(res.getString(R.string.KeyInvertLayoutPref));
 			longClickReleasePrefScreen = (Preference) this.findPreference(res.getString(R.string.KeyLongClickReleasePref));
@@ -195,14 +195,14 @@ public class PreferencesActivity extends PreferenceActivity implements View.OnCl
 		
 		private void loadInitialEditTextState() {
 			// Check to see if we are using the paid or free version
-			if(buyKeyValue) {				
+			/*if(buyKeyValue) {
 				buyKeyPrefScreen.setEnabled(false);
 				buyKeyPrefScreen.setTitle(res.getString(R.string.BoughtKey));
 				buyKeyPrefScreen.setSummary("");
 			}
 			else
 				buyKeyPrefScreen.setEnabled(true);
-			
+			*/
 			
 			
 			// CHECK IF A KEY HAS BEEN PURCHASED

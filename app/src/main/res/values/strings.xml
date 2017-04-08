@@ -75,7 +75,7 @@
     <string name="KeyFeedbackGroupPref">KeyFeedbackGroupPref</string>
 	    <string name="KeyFeedbackGroup1">KeyFeedbackGroup1</string>
 	    <string name="TitleFeedbackGroup1">Feedback Group 1</string>
-	    <string name="SummaryScreenFeedbackGroup1">Edit the Feedback Group 1 Settings</string>
+	    <string name="SummaryScreenFeedbackGroup1">Feedback Group 1 includes two small scale bars</string>
 	    <string name="SummaryFeedbackGroup1">Show the feedback group with 2 smaller Scale Bars. Use SB1=int, SB2=int</string>
 	    <string name="KeyLabelSB1">KeyLabelSB1</string>
 	    <string name="TitleLabelSB1">Scale Bar 1 Label</string>
@@ -86,7 +86,7 @@
 	    
 	    <string name="KeyFeedbackGroup2">KeyFeedbackGroup2</string>
 	    <string name="TitleFeedbackGroup2">Feedback Group 2</string>
-	    <string name="SummaryScreenFeedbackGroup2">Edit the Feedback Group 2 Settings</string>
+	    <string name="SummaryScreenFeedbackGroup2">Feeback Group 2 includes one large scale bar</string>
 	    <string name="SummaryFeedbackGroup2">Show the feedback group with 1 large Scale Bar. Use SB3=int</string>
     	<string name="KeyLabelSB3">KeyLabelSB3</string>
 	    <string name="TitleLabelSB3">Scale Bar 3 Label</string>
@@ -94,7 +94,7 @@
 	    
     	<string name="KeyFeedbackGroup3">KeyFeedbackGroup3</string>
 	    <string name="TitleFeedbackGroup3">Feedback Group 3</string>
-	    <string name="SummaryScreenFeedbackGroup3">Edit the Feedback Group 3 Settings</string>
+	    <string name="SummaryScreenFeedbackGroup3">Feeback Group 3 includes one large scale bar</string>
 	    <string name="SummaryFeedbackGroup3">Show the feedback group with 1 large Scale Bar. Use SB4=int</string>
     	<string name="KeyLabelSB4">KeyLabelSB4</string>
 	    <string name="TitleLabelSB4">Scale Bar 4 Label</string>
@@ -102,7 +102,7 @@
 	    
     	<string name="KeyFeedbackGroup4">KeyFeedbackGroup4</string>
 	    <string name="TitleFeedbackGroup4">Feedback Group 4</string>
-	    <string name="SummaryScreenFeedbackGroup4">Edit the Feedback Group 4 Settings</string>
+	    <string name="SummaryScreenFeedbackGroup4">Feeback Group 4 includes one large scale bar</string>
 	    <string name="SummaryFeedbackGroup4">Show the feedback group with 1 large Scale Bar. Use SB5=int</string>
 	    <string name="KeyLabelSB5">KeyLabelSB5</string>
 	    <string name="TitleLabelSB5">Scale Bar 5 Label</string>
@@ -110,7 +110,7 @@
 	    
 	    <string name="KeyFeedbackGroup5">KeyFeedbackGroup5</string>
 	    <string name="TitleFeedbackGroup5">Feedback Group 5</string>
-	    <string name="SummaryScreenFeedbackGroup5">Edit the Feedback Group 5 Settings</string>
+	    <string name="SummaryScreenFeedbackGroup5">Feeback Group 5 includes one large scale bar</string>
 	    <string name="SummaryFeedbackGroup5">Show the feedback group with 1 large Scale Bar. Use SB6=int</string>
 	    <string name="KeyLabelSB6">KeyLabelSB6</string>
 	    <string name="TitleLabelSB6">Scale Bar 6 Label</string>
@@ -118,7 +118,7 @@
 	    
 	    <string name="KeyFeedbackGroup6">KeyFeedbackGroup6</string>
 	    <string name="TitleFeedbackGroup6">Feedback Group 6</string>
-	    <string name="SummaryScreenFeedbackGroup6">Edit the Feedback Group 6 Settings</string>
+	    <string name="SummaryScreenFeedbackGroup6">Feeback Group 6 includes two small scale bars</string>
 	    <string name="SummaryFeedbackGroup6">Show the feedback group with 2 smaller Scale Bars. Use SB7=int, SB8=int</string>
 	    <string name="KeyLabelSB7">KeyLabelSB7</string>
 	    <string name="TitleLabelSB7">Scale Bar 7 Label</string>
@@ -129,7 +129,7 @@
 	    
 	    <string name="KeyFeedbackGroup7">KeyFeedbackGroup7</string>
 	    <string name="TitleFeedbackGroup7">Feedback Group 7</string>
-	    <string name="SummaryScreenFeedbackGroup7">Edit the Feedback Group 7 Settings</string>
+	    <string name="SummaryScreenFeedbackGroup7">Feeback Group 7 can be used to display raw string values</string>
 	    <string name="SummaryFeedbackGroup7">Show the raw text being received</string>
 	    <string name="KeyLabelTV9">KeyLabelSB9</string>
 	    <string name="TitleLabelTV9">Text View 9 Label</string>
