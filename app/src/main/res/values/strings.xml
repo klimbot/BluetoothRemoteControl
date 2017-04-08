@@ -37,14 +37,14 @@
     
     <!-- Accelerometer Output Preferences -->
     <string name="PrefCatAccelOutput">Accelerometer Output</string>
-    <string name="AccelOutput">Output Device Accelerometer Data?</string>
+    <string name="AccelOutput">Output Device Accelerometer Data</string>
     <string name="SummaryAccelOutput">The devices accelerometer readings will be output via the device connection</string>
     <string name="KeyAccelOutput">KeyAccelData</string>
     <string name="KeyAccelerometerPref">KeyAccelerometerPref</string>
     
     <!-- Invert Button Layout Preferences -->
     <string name="PrefCatInvertLayout">Layout</string>
-    <string name="InvertLayout">Invert Button Layout?</string>
+    <string name="InvertLayout">Invert Button Layout</string>
     <string name="SummaryInvertLayout">The action and extra buttons will be switched in both landscape and portrait layouts</string>
     <string name="KeyInvertLayout">KeyInvertLayout</string>
     <string name="KeyInvertLayoutPref">KeyInvertLayoutPref</string>
@@ -55,7 +55,7 @@
     <string name="PrefCatLongClickRelease">Long Click Prefs</string>
     <string name="LongClickReleaseAction">Long click release action</string>
     <string name="SummaryLongClickReleaseAction">Send out a special command when a long click is released</string>
-    <string name="KeyLongClickReleaseAction">Add action for long click release?</string>
+    <string name="KeyLongClickReleaseAction">Add action for long click release</string>
     
     <string name="KeyLongClickReleaseLabel">KeyLongClickReleaseLabel</string>
     <string name="SummaryLongClickRelease">Value to be output on the long click release</string>
@@ -67,7 +67,7 @@
     <!-- Reset Default Preferences -->
 	<string name="TitlePrefCatResetDefault">Reset</string>
 	<string name="KeyResetDefault">KeyResetDefault</string>
-	<string name="TitleResetDefault">Reset Preferences?</string>
+	<string name="TitleResetDefault">Reset Preferences</string>
 	<string name="SummaryResetDefault">Selecting this checkbox will restore all your preferences back to default</string>
     
     <!-- Feedback Preferences -->
