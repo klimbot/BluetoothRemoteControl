@@ -21,6 +21,7 @@
     -->
 
     <!-- Output the accelerometer data -->
+    <!--
     <PreferenceCategory
             android:title="@string/PrefCatAccelOutput"
             android:key="@string/KeyAccelerometerPref" >
@@ -32,7 +33,7 @@
                 android:defaultValue="false" />
 
     </PreferenceCategory>
-    
+    -->
     <!-- Invert The Layout -->
     <PreferenceCategory
             android:title="@string/PrefCatInvertLayout"

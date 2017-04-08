@@ -8,6 +8,7 @@
     <string name="action_settings">Preferences</string>
     <string name="action_bluetooth">Bluetooth Connect</string>
     <string name="action_bluetooth_condensed">BT Connect</string>
+	<string name="action_donate">Donate</string>
     <string name="action_help">Help</string>
     <string name="example_text"><b> Example Text </b> tstijg </string>
     <string name="help_text">

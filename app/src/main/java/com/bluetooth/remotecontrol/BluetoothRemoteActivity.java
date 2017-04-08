@@ -197,7 +197,9 @@ public class BluetoothRemoteActivity extends Activity implements View.OnClickLis
 			Intent debugIntent = new Intent(this,PreferencesActivity.class);
 			this.startActivityForResult(debugIntent, UPDATE_PREFERENCES);
 			
-			break;	
+			break;
+		//case R.id.action_donate :
+		//
 		case R.id.action_bluetooth :
 			this.bluetoothManager();
 			break;
@@ -560,7 +562,7 @@ public class BluetoothRemoteActivity extends Activity implements View.OnClickLis
 		this.sendString(stringToSend);
 
 		// Reset the long click event for trigger next time
-    	longClickEvent = longClickEventValue;;
+    	longClickEvent = longClickEventValue;
 	}
 	private void setFeedbackGroupVisibility() {
 		// Set visibility of feedback group 2 based on the preferences
@@ -660,9 +662,9 @@ public class BluetoothRemoteActivity extends Activity implements View.OnClickLis
                 //if(DEBUG) Log.i(LOG_TAG, "MESSAGE_STATE_CHANGE: " + msg.arg1);
                 switch (msg.arg1) {
                 case BluetoothSerialService.STATE_CONNECTED:
-                	if (mMenuItemConnect != null) {
-                		//mMenuItemConnect.setTitle("Bluetooth Disconnect");
-                	}
+                	//if (mMenuItemConnect != null) {
+                	//	mMenuItemConnect.setTitle("Bluetooth Disconnect");
+                	//}
                 	
                     //setTitle(appName +": Connected To " + mConnectedDeviceName);
                     menuItemBluetooth.setIcon(R.drawable.device_access_bluetooth_connected_on);
@@ -677,10 +679,10 @@ public class BluetoothRemoteActivity extends Activity implements View.OnClickLis
                     
                 case BluetoothSerialService.STATE_LISTEN:
                 case BluetoothSerialService.STATE_NONE:
-                	if (mMenuItemConnect != null) {
-                		//mMenuItemConnect.setIcon(android.R.drawable.ic_menu_search);
-                		//mMenuItemConnect.setTitle("Bluetooth Connect");
-                	}
+                	//if (mMenuItemConnect != null) {
+                	//	mMenuItemConnect.setIcon(android.R.drawable.ic_menu_search);
+                	//	mMenuItemConnect.setTitle("Bluetooth Connect");
+                	//}
                 	
                     //setTitle(appName + ": Not Connected");
                     menuItemBluetooth.setIcon(R.drawable.device_access_bluetooth);
@@ -710,7 +712,7 @@ public class BluetoothRemoteActivity extends Activity implements View.OnClickLis
                 for (String input : receivedMessageSplit) {
                 	// Get the scale bar number that is being referenced
                 	int scaleBarNumber = getTargetFeedbackElement(input);
-                    int scaleBarValue = 0;
+                    int scaleBarValue;
                     
                     if(scaleBarNumber == 1) {
                     	scaleBarValue = getTargetFeedbackValue(input);
@@ -777,8 +779,8 @@ public class BluetoothRemoteActivity extends Activity implements View.OnClickLis
     
     private int getTargetFeedbackElement(String unformattedString) {
     	int feedbackElement = -1;
-    	int indexOfEqualsSign = -1;
-    	String stringFeedbackElement = "";
+    	int indexOfEqualsSign;
+    	String stringFeedbackElement;
     	
     	// Get the index of the = sign if there was one
     	indexOfEqualsSign = unformattedString.indexOf('=');
@@ -803,9 +805,9 @@ public class BluetoothRemoteActivity extends Activity implements View.OnClickLis
     private int getTargetFeedbackValue(String unformattedString) {
     	int feedbackElementValue = 0;
     	
-    	int indexOfEqualsSign = -1;
-    	int indexOfEOL = -1;
-    	String stringFeedbackElementValue = "";
+    	int indexOfEqualsSign;
+    	int indexOfEOL;
+    	String stringFeedbackElementValue;
     	
     	// Get the index of the = sign if there was one
     	indexOfEqualsSign = unformattedString.indexOf('=');
