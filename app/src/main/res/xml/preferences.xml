@@ -3,6 +3,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!-- Purchase a pro key -->
+    <!--
     <PreferenceCategory
             android:title="@string/PrefCatBuyKey"
             android:key="@string/KeyBuyKeyPref"  >
@@ -17,7 +18,8 @@
         </PreferenceScreen>    
 
     </PreferenceCategory>
-    
+    -->
+
     <!-- Output the accelerometer data -->
     <PreferenceCategory
             android:title="@string/PrefCatAccelOutput"
